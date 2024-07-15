@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {Link} from 'react-router-dom';
+
 import Slider from '../Slider/Slider';
 
 export default function Navbar() {
@@ -16,7 +17,7 @@ export default function Navbar() {
       <ul className="navbar-nav me-auto mt-2 mt-lg-0 ">
        
         <li className="nav-item ">
-          <Link className="nav-link " style={{color:'#55e748'}} to="#">Home</Link>
+          <Link className="nav-link " style={{color:'#55e748'}} to="/">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link text-white" to="#">News</Link>

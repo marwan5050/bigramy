@@ -7,7 +7,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+a , a:hover {
+  text-decoration: none !important;
+  color: #fff;
+}
+.navbar-nav .dropdown-menu{
+  background-color: #131313;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

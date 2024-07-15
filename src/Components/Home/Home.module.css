@@ -1,0 +1,41 @@
+
+
+
+.sliderContainer{
+    position: relative;
+}
+.layer{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.imgContainer{
+    background-position: center;
+    background-size: cover;
+}
+ .header{
+    font-size: 80px;
+}
+
+.headerP{
+    font-size: 40px;
+}
+
+@media screen and (max-width:600px) {
+    .header{
+        font-size: 50px;
+    }
+
+    .headerP{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header{
+        font-size: 40px;
+    }
+
+    .headerP{
+        font-size: 18px;
+    }
+}
