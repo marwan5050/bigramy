@@ -22,7 +22,7 @@ export default function Home() {
                 <div  className='position-relative'>
                    <div >
 
-                    <img className='w-100' src={photo} alt='photo' />
+                    <img className='w-100' src={photo} alt='poster' />
                    </div>
 
                       <div className={` d-flex align-items-center  position-absolute top-0 start-0 end-0 bottom-0 z-1 ${style.layer}`}>
@@ -47,7 +47,7 @@ export default function Home() {
             <div  className='position-relative'>
                    <div >
 
-                    <img className='w-100' src={photo} alt='photo' />
+                    <img className='w-100' src={photo} alt='postrt' />
                    </div>
 
                       <div className={` d-flex align-items-center  position-absolute top-0 start-0 end-0 bottom-0 z-1 ${style.layer}`}>
@@ -72,7 +72,7 @@ export default function Home() {
             <div  className='position-relative'>
                    <div >
 
-                    <img className='w-100' src={photo} alt='photo' />
+                    <img className='w-100' src={photo} alt='poster' />
                    </div>
 
                       <div className={` d-flex align-items-center  position-absolute top-0 start-0 end-0 bottom-0 z-1 ${style.layer}`}>
